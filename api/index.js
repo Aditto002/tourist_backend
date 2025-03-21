@@ -24,7 +24,7 @@ const app = express();
 app.use(cookieParser());
 // app.use(cors());
 app.use(cors({
-    origin: ['http://localhost:5173','https://sandbox.sslcommerz.com' ], // Your frontend URL
+    origin: ['https://tourist-frontend-ten.vercel.app/','https://sandbox.sslcommerz.com' ], // Your frontend URL
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
     allowedHeaders: ['Content-Type', 'Authorization'],
     credentials: true
